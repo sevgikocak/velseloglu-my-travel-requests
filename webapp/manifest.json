@@ -1,0 +1,62 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "fin.travel.mytravelrequestsv2.ZFIN_TR_CRE_EXT",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}"
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://flight",
+			"favIcon": "sap-icon://flight"
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"dependencies": {
+			"minUI5Version": "1.52.1"
+		},
+		"componentUsages": {
+			"DetailPage": {
+				"name": "sap.fin.travel.lib.reuse.DetailPage"
+			},
+			"ListPage": {
+				"name": "sap.fin.travel.lib.reuse.ListPage"
+			}
+		},
+		"extends": {
+			"component": "fin.travel.mytravelrequestsv2",
+			"extensions": {}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		}
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zfin_tr_cre_ext/webapp",
+		"_version": "1.1.0"
+	}
+}

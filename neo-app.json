@@ -1,0 +1,144 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "Veyseloglu",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "Veyseloglu"
+    },
+    {
+      "path": "/sap/bc/ui5_ui5",
+      "target": {
+        "type": "destination",
+        "name": "Veyseloglu",
+        "entryPath": "/sap/bc/ui5_ui5"
+      },
+      "description": "Veyseloglu"
+    },
+    {
+      "path": "/resources/sap/fin/travel/lib/reuse",
+      "target": {
+        "type": "destination",
+        "name": "Veyseloglu",
+        "entryPath": "/sap/bc/ui5_ui5/sap/fin_trv_reuse",
+        "preferLocal": true
+      },
+      "description": "sap/fin/travel/lib/reuse Reuse Library"
+    },
+    {
+      "path": "/resources/fin/travel/mytravelrequestsv2/Component",
+      "target": {
+        "type": "destination",
+        "name": "Veyseloglu",
+        "entryPath": "/sap/bc/lrep/flex/data/~hwpAFVMAA8W9R1Xqmo6N//79qFA=~/fin.travel.mytravelrequestsv2.Component?version=2.0.8",
+        "preferLocal": true
+      },
+      "description": "fin/travel/mytravelrequestsv2/Component Reuse Library"
+    },
+    {
+      "path": "/webapp/resources/sap/fin/travel/lib/reuse",
+      "target": {
+        "type": "destination",
+        "name": "Veyseloglu",
+        "entryPath": "/sap/bc/ui5_ui5/sap/fin_trv_reuse",
+        "preferLocal": true
+      },
+      "description": "sap/fin/travel/lib/reuse Reuse Library"
+    },
+    {
+      "path": "/webapp/resources/fin/travel/mytravelrequestsv2/Component",
+      "target": {
+        "type": "destination",
+        "name": "Veyseloglu",
+        "entryPath": "/sap/bc/lrep/flex/data/~hwpAFVMAA8W9R1Xqmo6N//79qFA=~/fin.travel.mytravelrequestsv2.Component?version=2.0.8",
+        "preferLocal": true
+      },
+      "description": "fin/travel/mytravelrequestsv2/Component Reuse Library"
+    },
+    {
+      "path": "/webapp/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.84.6"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/webapp/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.84.6"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/dist/resources/sap/fin/travel/lib/reuse",
+      "target": {
+        "type": "destination",
+        "name": "Veyseloglu",
+        "entryPath": "/sap/bc/ui5_ui5/sap/fin_trv_reuse",
+        "preferLocal": true
+      },
+      "description": "sap/fin/travel/lib/reuse Reuse Library"
+    },
+    {
+      "path": "/dist/resources/fin/travel/mytravelrequestsv2/Component",
+      "target": {
+        "type": "destination",
+        "name": "Veyseloglu",
+        "entryPath": "/sap/bc/lrep/flex/data/~hwpAFVMAA8W9R1Xqmo6N//79qFA=~/fin.travel.mytravelrequestsv2.Component?version=2.0.8",
+        "preferLocal": true
+      },
+      "description": "fin/travel/mytravelrequestsv2/Component Reuse Library"
+    },
+    {
+      "path": "/dist/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.84.6"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/dist/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.84.6"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources",
+        "version": "1.84.6"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources",
+        "version": "1.84.6"
+      },
+      "description": "SAPUI5 Test Resources"
+    }
+  ],
+  "sendWelcomeFileRedirect": true
+}

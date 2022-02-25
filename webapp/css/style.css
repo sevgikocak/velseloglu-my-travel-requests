@@ -1,0 +1,24 @@
+.sapUiFormLblColon .sapUiFormElementLbl>.sapMLabel[id*="sap.fin.travel.lib.reuse.DetailPage.TravelRequests---TravelRequests--GeneralInfo::EstimatedCost::Field-label"] {
+    display: none;
+}
+
+.sapMText[id*="sap.fin.travel.lib.reuse.DetailPage.TravelRequests---TravelRequests--GeneralInfo::EstimatedCost::Field-tex"] {
+    display: none;
+}
+
+.sapMInputBase[id*="sap.fin.travel.lib.reuse.DetailPage.TravelRequests---TravelRequests--GeneralInfo::EstimatedCost::Field-input"] {
+    display: none;
+}
+
+.sapMInputBaseInner[id*="sap.fin.travel.lib.reuse.DetailPage.TravelRequests---TravelRequests--General2Info::Location::Field-input-inner"] {
+  pointer-events: none;
+}
+
+
+.sapMLabel[id*="sap.fin.travel.lib.reuse.DetailPage.TravelRequests---TravelRequests--header::EstimatedCost::TotalCost::Label"] {
+    display: none;
+}
+
+.sapUiCompSmartField[id*="sap.fin.travel.lib.reuse.DetailPage.TravelRequests---TravelRequests--header::EstimatedCost::TotalCost::Value"] {
+    display: none;
+}
